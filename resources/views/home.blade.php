@@ -9,9 +9,7 @@
 <body>
     <header>
         <ul>
-            <li><a href="/road">Road</a></li>
-            <li><a href="/mtb">MTB</a></li>
-            <li><a href="/street">Street</a></li>
+            <li><a href="{{ route('mtb') }}">MTB</a></li>
         </ul>
     </header>
     <h1>Hello Bikers</h1>

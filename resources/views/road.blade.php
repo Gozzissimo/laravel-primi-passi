@@ -7,6 +7,6 @@
     <title>Laravel Bikes | Road</title>
 </head>
 <body>
-    
+    <h1>Road</h1>
 </body>
 </html>

@@ -14,15 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', function () {
     return view('mtb');
-});
-
-Route::get('/', function () {
-    return view('road');
-});
-
-Route::get('/', function () {
-    return view('street');
-});
+})->name('mtb');
 
 Route::get('/', function () {
     return view('home');

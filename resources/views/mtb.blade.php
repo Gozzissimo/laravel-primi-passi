@@ -7,6 +7,6 @@
     <title>Laravel Bikes | MTB</title>
 </head>
 <body>
-    
+    <h1>MTB</h1>
 </body>
 </html>

@@ -7,6 +7,6 @@
     <title>Laravel Bikes | Street</title>
 </head>
 <body>
-    
+    <h1>Street</h1>
 </body>
 </html>
