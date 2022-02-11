@@ -34,7 +34,7 @@ Route::get('/mtb', function () {
         ],
     ];
 
-    return view('mtb');
+    return view('mtb', ['bikes' => $bikes]);
 })->name('mtb');
 
 Route::get('/road', function () {
@@ -59,7 +59,7 @@ Route::get('/road', function () {
         ],
     ];
 
-    return view('road');
+    return view('road', ['bikes' => $bikes]);
 })->name('road');
 
 Route::get('/', function () {

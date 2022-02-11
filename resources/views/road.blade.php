@@ -12,11 +12,11 @@
     <ul>
         @foreach($bikes as $bike)
             <li>
-                <h2>{{ $brand }}</h2>
-                <h3>{{ $model }}</h3>
-                <h4>{{ $size }}</h4>
+                <h2>{{ $bike['brand'] }}</h2>
+                <h3>{{ $bike['model'] }}</h3>
+                <h4>{{ $bike['size'] }}</h4>
                 <div class="">
-                    <img src="{{ $image }}" alt="">
+                    <img src="{{ $bike['image'] }}" alt="">
                 </div>
             </li>
         @endforeach
